@@ -39,6 +39,14 @@ onBeforeRouteUpdate(() => {
             <CartOutline size="25" fillColor="#282828" />
             Carrinho
         </RouterLink>
+        <RouterLink to="/categorias">
+            <CartOutline size="25" fillColor="#282828" />
+            Categoria
+        </RouterLink>
+        <RouterLink to="/fabricantes">
+            <CartOutline size="25" fillColor="#282828" />
+            Fabricante
+        </RouterLink>
 
         <div class="hamburger" @click="showMenu = !showMenu">
             <Menu size="25" fillColor="#282828" />
